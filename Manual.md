@@ -1,8 +1,8 @@
-# A3-DC
+# <ins>A3-DC</ins>
 A3-DC is a software to analyze object based colocalization in multichannel microscopy images. 
 
 Cite:<br>
-"Dijkstra, E. W. (1968). Go to statement considered harmful. Communications of the ACM, 11(3), 147-148."
+ > "Dijkstra, E. W. (1968). Go to statement considered harmful. Communications of the ACM, 11(3), 147-148."
 
 ## Installation
 ![using a color picker](./Images/giphy.gif)
