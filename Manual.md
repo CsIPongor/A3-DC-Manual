@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Colocalization analysis
 
-###Loading workflows and thei usage
+##Loading workflows and thei usage
 
 ![using a color picker](./Images/giphy.gif)
 
