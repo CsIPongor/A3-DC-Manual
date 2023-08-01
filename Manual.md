@@ -1,3 +1,3 @@
 # SpectrumPage
 
-![using a color picker](/Images/giphy.gif)
+![using a color picker](./Images/giphy.gif)
