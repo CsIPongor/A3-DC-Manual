@@ -1,5 +1,5 @@
 # <ins>A3-DC</ins>
-A3-DC is a software to analyze object based colocalization in multichannel microscopy images. 
+A3-DC is a software to analyze object based colocalization in multichannel microscopy images. The goal of the software is to process large datasets, so processing can be run on individual images and or in batch.
 
 Cite:<br>
  > ["Dijkstra, E. W. (1968). Go to statement considered harmful. Communications of the ACM, 11(3), 147-148."](https://dl.acm.org/doi/10.1016/S0164-1212%2801%2900136-4)
@@ -17,19 +17,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ###Input Parameters
 
 
-## <ins>Colocalization analysis</ins>
+## <ins>Workflows</ins>
 
-### <ins>Loading workflows and their usage</ins>
+Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets bz loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI).
 
+### <ins>Loading workflows</ins>
 
-Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets bz loading them. After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a colocalization analysis using tiff files so please select the workflow called "Colocaize_Tiff" (see below).
-
-The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+ After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a colocalization analysis using tiff files so please select the workflow called "Colocaize_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
 
 ![using a color picker](./Images/2.1_Colocalization_open.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### <ins>Image Segmentation</ins>
 
+## <ins>Colocalization analysis</ins>
+
+For now we will run a colocalization analysis using tiff files so please select the workflow called "Colocaize_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+
+![using a color picker](./Images/2.1_Colocalization_open.gif)
 ### <ins>Input Parameters</ins>
 ![using a color picker](./Images/giphy.gif)
 
