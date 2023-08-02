@@ -17,17 +17,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ###Input Parameters
 
 
-## <ins>Workflows</ins>
+## <ins>Working with workflows and **image segmentation**</ins>
 
 Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets bz loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI).
 
 ### <ins>Loading workflows</ins>
 
- After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a colocalization analysis using tiff files so please select the workflow called "Colocaize_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+ After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a workflowcolocalization analysis using tiff files so please select the workflow called "Test_Thresholds_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
 
-![using a color picker](./Images/2.1_Colocalization_open.gif)
+![using a color picker](./Images/1.1_Workflows_open.gif)
 
-### <ins>Image Segmentation</ins>
+### <ins>Workflow Settings</ins>
+
+### <ins>Running workflows</ins>
+
+### <ins>3D Visualization</ins>
+
+### <ins>Saving and Loading Workflows</ins>
 
 ## <ins>Colocalization analysis</ins>
 
