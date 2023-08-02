@@ -25,7 +25,7 @@ Main functions of the software are grouped into workflows. Users can create new 
 
  After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a workflowcolocalization analysis using tiff files so please select the workflow called "Test_Thresholds_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
 
-![using a color picker](./Images/1.1_Workflows_open.gif)
+![using a color picker](./Images/1.1_Workflows_open.gif)<br>
 
 ### <ins>Changing Workflow Settings</ins>
 To follow this tutorial please download test image:<br>
@@ -37,6 +37,11 @@ If not already open please load the "Test_Thresholds_Tiff" workflow in A3-DC. Ea
 ### <ins>Segmentation Settings</ins>
 Next we have to select the image channels that will be used to test different segmentation methods using the "Source" workflow component. In this case channel 1 and 2:<br>
 ![using a color picker](./Images/1.3_Workflows_Source.gif)<br>
+
+The following two workflow components are used to select thresholding method, one for each channel. Thresholding methods can be chosen from a drop-down menu. If one wants to set a manual threshold, the value given in the input field (this value will only be used if the "Manual" thresholding menu is used. The thresholding method can be rum slice by slice or using the entire image stack set using a switch. The thresholding values and images can be saved to the output directory for further analysis using the aproppriate swithches. In our case we will choose the "Otsu" method for each channel: <br>
+
+
+
 
 ### <ins>Running workflows</ins>
 
