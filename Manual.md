@@ -39,11 +39,15 @@ Next we have to select the image channels that will be used to test different se
 ![using a color picker](./Images/1.3_Workflows_Source.gif)<br>
 
 The following two workflow components are used to select thresholding method, one for each channel. Thresholding methods can be chosen from a drop-down menu. If one wants to set a manual threshold, the value given in the input field (this value will only be used if the "Manual" thresholding menu is used. The thresholding method can be rum slice by slice or using the entire image stack set using a switch. The thresholding values and images can be saved to the output directory for further analysis using the aproppriate swithches. In our case we will choose the "Otsu" method for each channel: <br>
-
-
+![using a color picker](./Images/1.4_Workflows_Thresholding.gif)<br>
 
 
 ### <ins>Running workflows</ins>
+Workflows can be run in single image or batch mode using the play or fast-forward buttons. Now lets run the workflow in single image mode:<br>
+
+
+
+In batch mode all images will be processed within the directory of the image that has been first opened. I
 
 ### <ins>3D Visualization</ins>
 
