@@ -27,12 +27,16 @@ Main functions of the software are grouped into workflows. Users can create new 
 
 ![using a color picker](./Images/1.1_Workflows_open.gif)
 
-### <ins>Workflow Settings</ins>
+### <ins>Changing Workflow Settings</ins>
 To follow this tutorial please download test image:<br>
 [Download test image.](https://google.com)<br>
 
-If not already open please load the "Test_Thresholds_Tiff" workflow in A3-DC. Each step in the workflow has a drop-down box that can be opend by clicking the black triangle to the left side of each box. As a first step we will set the file path and the path to where results will be saved, please see below:<br>
-![using a color picker](./Images/1_Install_short.gif)<br>
+If not already open please load the "Test_Thresholds_Tiff" workflow in A3-DC. Each step in the workflow has a drop-down box that can be opend by clicking the black triangle to the left side of each box. As a first step we will set the file path and the path to where results will be saved using the first two workflow elements, please see below:<br>
+![using a color picker](./Images/1.2_Workflows_settings.gif)<br>
+
+### <ins>Segmentation Settings</ins>
+Next we have to select the image channels that will be used to test different segmentation methods using the "Source" workflow component. In this case channel 1 and 2:<br>
+![using a color picker](./Images/1.2_Workflows_settings.gif)<br>
 
 ### <ins>Running workflows</ins>
 
