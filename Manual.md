@@ -20,7 +20,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ## <ins>Colocalization analysis</ins>
 
 ### <ins>Loading workflows and their usage</ins>
-Main functions of the software are grouped into workflows. The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+
+
+Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets bz loading them. After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a colocalization analysis using tiff files so please select the workflow called "Colocaize_Tiff" (see below).
+
+The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
 
 ![using a color picker](./Images/2.1_Colocalization_open.gif)
 
