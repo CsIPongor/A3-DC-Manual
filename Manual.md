@@ -36,7 +36,7 @@ If not already open please load the "Test_Thresholds_Tiff" workflow in A3-DC. Ea
 
 ### <ins>Segmentation Settings</ins>
 Next we have to select the image channels that will be used to test different segmentation methods using the "Source" workflow component. In this case channel 1 and 2:<br>
-![using a color picker](./Images/1.2_Workflows_settings.gif)<br>
+![using a color picker](./Images/1.3_Workflows_Source.gif)<br>
 
 ### <ins>Running workflows</ins>
 
