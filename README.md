@@ -99,7 +99,7 @@ A3-DC is a software to analyze object based colocalization in multichannel micro
 Cite:<br>
  > ["Dijkstra, E. W. (1968). Go to statement considered harmful. Communications of the ACM, 11(3), 147-148."](https://dl.acm.org/doi/10.1016/S0164-1212%2801%2900136-4)
 
-## <ins>Installation</ins>
+## <ins>**Installation**</ins>
 First download the A3-DC install from the following link:<br>
 [Download installer.](https://google.com)<br>
 
@@ -107,7 +107,7 @@ Run installer and follow the instructions below. Depending on the computer setup
 
 ![using a color picker](./Images/1_Install_short.gif)
 
-## <ins>Working with workflows</ins>
+## <ins>**Working with Workflows**</ins>
 
 Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets by loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI) through an image segmentation workflow that can be used to test different segmentation methods. 
 
@@ -121,7 +121,7 @@ Main functions of the software are grouped into workflows. Users can create new 
 Workflows can be saved to run them on multiple iamge sets or for documentation porpouses. These workflows can be later loaded and after modifying the paths they can be rerun on other images.<br>
 ![using a color picker](./Images/1.10_Workflows_Workflow operations.gif)<br>
 
-###<ins>Themes</ins>
+### <ins>Themes</ins>
 The user interface has a bright and a dark theme that users can change by pressing on the dark/bright circle on the quick access bar.<br>
 ![using a color picker](./Images/1.11_Workflows_Themes.gif)<br>
 
@@ -160,7 +160,7 @@ Each image stack has a toggle switch to show or hide it from view. Underneath th
 3D stacks can be rotated, zoomed and dragged. Images can be **rotate**d by clicking on the image with the mouse button and moving the mouse. and one can **zoom** using the scroll button. To drag image click on the image with the right mose button and move the mouse.<br>
 ![using a color picker](./Images/1.8_Workflows_3D_view_II.gif)<br>
 
-## <ins>Colocalization analysis</ins>
+## <ins>**Colocalization Analysis**</ins>
 
 For now we will run a colocalization analysis using tiff files so please select the workflow called "Colocaize_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
 ![using a color picker](./Images/2.1_Colocalization_open.gif)<br>
@@ -183,8 +183,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### <ins>Colocalization Settings</ins>
 ![using a color picker](./Images/giphy.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+	
+
+laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### <ins>Results</ins>
 
-## <ins>Testing Segmentation methods</ins>
+Results can be saved to an excel file (or if needed as a text file) for further analysis. Parameters like object	volume, mean/sum intensity, number of colocalizing objects, object list from the other channel, 	centroid coordinates, maximum intensity pixel within object are all saved. Data is structured in three workbooks to store objects from the two channels and that of the overlapping volumes.<br>
+![using a color picker](./Images/2.7_Colocalization_Results.gif)<br> 
+
+
+
