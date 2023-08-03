@@ -12,28 +12,26 @@ Run installer and follow the instructions below. Depending on the computer setup
 
 ![using a color picker](./Images/1_Install_short.gif)
 
-###Input Parameters
+## <ins>Working with workflows</ins>
 
+Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets by loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI) through an image segmentation workflow that can be used to test different segmentation methods. 
 
-## <ins>Working with workflows and **image segmentation**</ins>
+### <ins>Starting a New Workflow</ins>
 
-Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets by loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI) through an image segmentation workflow that can be used to test different segmentation methods.
-
-### <ins>Creating a New Workflow</ins>
-
- After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a workflowcolocalization analysis using tiff files so please select the workflow called "Test_Thresholds_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+ After starting A3-DC a new workflow can be started using the "New Workflow" menupoint in the "File" menu (**File->New Workflow**) or by  using the new file button on the quick access bar (firt element). For now we will run a workflowcolocalization analysis using tiff files so please select the workflow called "Test_Thresholds_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+ 
+![using a color picker](./Images/1.1_Workflows_open.gif)<br>
 
 ### <ins>Saving and Loading Workflows</ins>
 Workflows can be saved to run them on multiple iamge sets or for documentation porpouses. These workflows can be later loaded and after modifying the paths they can be rerun on other images.<br>
 ![using a color picker](./Images/1.10_Workflows_Workflow operations.gif)<br>
 
-###><ins>Themes</ins>
+###<ins>Themes</ins>
 The user interface has a bright and a dark theme that users can change by pressing on the dark/bright circle on the quick access bar.<br>
 ![using a color picker](./Images/1.11_Workflows_Themes.gif)<br>
 
-![using a color picker](./Images/1.1_Workflows_open.gif)<br>
 
-### <ins>Changing Workflow Settings</ins>
+### <ins>Workflow Settings</ins>
 To follow this tutorial please download test image:<br>
 [Download test image.](https://google.com)<br>
 
@@ -70,26 +68,28 @@ Each image stack has a toggle switch to show or hide it from view. Underneath th
 ## <ins>Colocalization analysis</ins>
 
 For now we will run a colocalization analysis using tiff files so please select the workflow called "Colocaize_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+![using a color picker](./Images/2.1_Colocalization_open.gif)<br>
 
-![using a color picker](./Images/2.1_Colocalization_open.gif)
-### <ins>Input Parameters</ins>
+### <ins>General Settings</ins>
 ![using a color picker](./Images/giphy.gif)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-### <ins>Running the analysis</ins>
+### <ins>Segmentation Settings</ins>
+![using a color picker](./Images/giphy.gif)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### <ins>Object Analysis Settings</ins>
+![using a color picker](./Images/giphy.gif)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+### <ins>Colocalization Settings</ins>
 ![using a color picker](./Images/giphy.gif)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ### <ins>Results</ins>
-![using a color picker](./Images/giphy.gif)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### <ins>Running batch analyses</ins>
-![using a color picker](./Images/giphy.gif)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ## <ins>Testing Segmentation methods</ins>
