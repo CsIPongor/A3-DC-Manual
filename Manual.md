@@ -19,9 +19,17 @@ Run installer and follow the instructions below. Depending on the computer setup
 
 Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets by loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI) through an image segmentation workflow that can be used to test different segmentation methods.
 
-### <ins>Loading workflows</ins>
+### <ins>Creating a New Workflow</ins>
 
  After starting A3-DC a new workflow can be started using the "New Workflow" button in the "File" menu (**File->New Workflow**). For now we will run a workflowcolocalization analysis using tiff files so please select the workflow called "Test_Thresholds_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
+
+### <ins>Saving and Loading Workflows</ins>
+Workflows can be saved to run them on multiple iamge sets or for documentation porpouses. These workflows can be later loaded and after modifying the paths they can be rerun on other images.<br>
+![using a color picker](./Images/1.10_Workflows_Workflow operations.gif)<br>
+
+###><ins>Themes</ins>
+The user interface has a bright and a dark theme that users can change by pressing on the dark/bright circle on the quick access bar.<br>
+![using a color picker](./Images/1.11_Workflows_Themes.gif)<br>
 
 ![using a color picker](./Images/1.1_Workflows_open.gif)<br>
 
@@ -58,14 +66,6 @@ Each image stack has a toggle switch to show or hide it from view. Underneath th
 
 3D stacks can be rotated, zoomed and dragged. Images can be **rotate**d by clicking on the image with the mouse button and moving the mouse. and one can **zoom** using the scroll button. To drag image click on the image with the right mose button and move the mouse.<br>
 ![using a color picker](./Images/1.8_Workflows_3D_view_II.gif)<br>
-
-### <ins>Saving and Loading Workflows</ins>
-Workflows can be saved to run them on multiple iamge sets or for documentation porpouses. These workflows can be later loaded and after modifying the paths they can be rerun on other images.<br>
-![using a color picker](./Images/1.10_Workflows_Workflow operations.gif)<br>
-
-###><ins>Themes</ins>
-The user interface has a bright and a dark theme that users can change by pressing on the dark/bright circle on the quick access bar.<br>
-![using a color picker](./Images/1.11_Workflows_Themes.gif)<br>
 
 ## <ins>Colocalization analysis</ins>
 
