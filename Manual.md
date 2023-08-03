@@ -12,14 +12,12 @@ Run installer and follow the instructions below. Depending on the computer setup
 
 ![using a color picker](./Images/1_Install_short.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
 ###Input Parameters
 
 
 ## <ins>Working with workflows and **image segmentation**</ins>
 
-Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets bz loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI).
+Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets by loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI) through an image segmentation workflow that can be used to test different segmentation methods.
 
 ### <ins>Loading workflows</ins>
 
@@ -34,6 +32,7 @@ To follow this tutorial please download test image:<br>
 If not already open please load the "Test_Thresholds_Tiff" workflow in A3-DC. Each step in the workflow has a drop-down box that can be opend by clicking the black triangle to the left side of each box. As a first step we will set the file path and the path to where results will be saved using the first two workflow elements, please see below:<br>
 ![using a color picker](./Images/1.2_Workflows_settings.gif)<br>
 
+
 ### <ins>Segmentation Settings</ins>
 Next we have to select the image channels that will be used to test different segmentation methods using the "Source" workflow component. In this case channel 1 and 2:<br>
 ![using a color picker](./Images/1.3_Workflows_Source.gif)<br>
@@ -45,11 +44,20 @@ The following two workflow components are used to select thresholding method, on
 ### <ins>Running workflows</ins>
 Workflows can be run in single image or batch mode using the play or fast-forward buttons. Now lets run the workflow in single image mode:<br>
 
+![using a color picker](./Images/1.5_Workflows_Running.gif)<br>
 
+In batch mode all images will be processed within the directory of the image that has been first opened. <br>
 
-In batch mode all images will be processed within the directory of the image that has been first opened. I
+The log window can be used to check for the property of the images and the threshold values resulting from the segmentation procedure.<br>
+![using a color picker](./Images/1.6_Workflows_Results.gif)<br>
 
 ### <ins>3D Visualization</ins>
+Results of the segmentation gan be shown using the final workflow element, where the raw image data and thresholding can be visualized in 3D. In case the workflow is too long while hovering the mouse over the workflow one can scroll up and down using the scroll wheel of the mouse.
+Each image stack has a toggle switch to show or hide it from view. Underneath the switch there is a slider to set Brightness and contrast. For **Manual** thresholding the intensity level can be determined using the lower intensity level of the slider.<br>
+![using a color picker](./Images/1.8_Workflows_3D_view.gif)<br>
+
+3D stacks can be rotated, zoomed and dragged. Images can be **rotate**d by clicking on the image with the mouse button and moving the mouse. and one can **zoom** using the scroll button. To drag image click on the image with the right mose button and move the mouse.<br>
+![using a color picker](./Images/1.8_Workflows_3D_view_II.gif)<br>
 
 ### <ins>Saving and Loading Workflows</ins>
 
