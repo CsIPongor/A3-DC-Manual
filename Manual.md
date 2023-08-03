@@ -63,7 +63,7 @@ Each image stack has a toggle switch to show or hide it from view. Underneath th
 Workflows can be saved to run them on multiple iamge sets or for documentation porpouses. These workflows can be later loaded and after modifying the paths they can be rerun on other images.<br>
 ![using a color picker](./Images/1.10_Workflows_Workflow operations.gif)<br>
 
-###>Themes</ins>
+###><ins>Themes</ins>
 The user interface has a bright and a dark theme that users can change by pressing on the dark/bright circle on the quick access bar.<br>
 ![using a color picker](./Images/1.11_Workflows_Themes.gif)<br>
 
