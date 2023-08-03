@@ -16,7 +16,7 @@ Run installer and follow the instructions below. Depending on the computer setup
 
 Main functions of the software are grouped into workflows. Users can create new workflows, save them so settings can be used to analye multiple datasets by loading them. In this section we will show how worklows work and the main components of the graphical user interface (GUI) through an image segmentation workflow that can be used to test different segmentation methods. 
 
-### <ins>Starting a New Workflow</ins>
+### Starting a New Workflow
 
  After starting A3-DC a new workflow can be started using the "New Workflow" menupoint in the "File" menu (**File->New Workflow**) or by  using the new file button on the quick access bar (firt element). For now we will run a workflowcolocalization analysis using tiff files so please select the workflow called "Test_Thresholds_Tiff" (see below). The left section of the GUI is dedicated to set workflow settings. Each step in the workflow has a dedicated drop-down box that can be opened and closed (see below).
  
